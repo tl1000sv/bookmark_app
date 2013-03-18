@@ -9,6 +9,12 @@ gem 'sqlite3'
 
 gem 'haml-rails'
 
+group :development do
+  gem "better_errors"
+  # To use debugger
+  # gem 'debugger'  
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -35,5 +41,4 @@ gem 'jquery-rails', '2.0.2'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-# gem 'debugger'
+

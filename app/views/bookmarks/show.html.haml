@@ -5,7 +5,7 @@
   = @bookmark.name
 %p
   %b Uri:
-  = @bookmark.uri
+  = link_to 'Ruby', 'http://' + @bookmark.uri
 
 = link_to 'Edit', edit_bookmark_path(@bookmark)
 \|
